@@ -21,9 +21,9 @@ public class CalcTest {
 	static double multiply(double a, double b, double c) {return a * b * c;}
 	static double multiply(double a, double b, double c, double d) {return a * b * c * d;}
 	
-	@Test // @Ignore
+	@Test //@Ignore
 	public void test_01() {assertEquals("Not correct", divide(90.0, 7.0), 12.9, 0.09);}
-	@Test // @Ignore
+	@Test //@Ignore
 	public void test_02() {assertEquals("Not correct", add(60.0, 5.0, 7.0), 72.0, 0.09);}
 	@Test // @Ignore
 	public void test_03() {assertEquals("Not correct", subtract(100.0, 22.0), 78.0, 0.09);}
